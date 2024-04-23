@@ -1,0 +1,37 @@
+# print("Xush kelibsiz!!!")
+#
+# print("1. eng_uz")          #English - Uzbek luga'atimizga xush kelibsiz!!!
+# print("2. uz_eng")          #Welcome to our English - Uzbek dictionary!!!
+# user = input("Kerakli tilni tanlang! ")
+# "Mevalar haqida soz kiriting!"
+# eng_uz = {
+#     'apple': 'olma',
+#     'banana': 'banan',
+#     'orange': 'shaftoli',
+#     'apricot': 'mandarin',
+#     'patato': 'kartoshka',
+#     'onion': 'piyoz'
+# }
+# uz_eng = {
+#     'olma': 'apple',
+#     'banan': 'banana',
+#     'shaftoli': 'orange',
+#     'mandarin': 'apricot',
+#     'kartoshka': 'patato',
+#     'piyoz': 'onion'
+# }
+# while True:
+#     if user == "1":
+#         print("Welcome to our English - Uzbek dictionary!!!")
+#         c = input("Please enter dictionary!!!\n")
+#         if c in eng_uz:
+#             print(eng_uz[c])
+#         else:
+#             print("The word you entered was not founds?")
+#     else:
+#         print("Xush kelibsiz Uzbek - English lug'atiga!!!")
+#         c = input("Iltimos so'z kiriting!!!\n")
+#         if c in uz_eng:
+#             print(uz_eng[c])
+#         else:
+#             print("Siz kiritgan soʻz topilmadi")
